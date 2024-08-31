@@ -55,7 +55,7 @@ export default function BlogPost({ style, showItem, showPagination, startFrom, t
 
             {getPaginatedProducts.map(post => (
                 <React.Fragment key={post.id}>
-                    {!style && <PostCard9 post={post} />}
+                    {!style && <PostCard post={post} />}
                     
                     {/* {style === 9 && <PostCard9 post={post} />} */}
             
