@@ -1,3 +1,4 @@
+'use client'
 
 import Layout from "@/components/layout/Layout"
 export default async function Register() {
@@ -39,15 +40,15 @@ export default async function Register() {
                                             <label htmlFor="save-info" className="text-sm text-neutral-950 dark:text-neutral-dark-950">I
                                                 agree to the <a href="#" className="font-bold">Terms &amp; conditions</a></label>
                                         </div>
-                                        <a href="#" className="text-neutral-950 dark:text-neutral-dark-950 underline text-sm">Need
-                                            help?</a>
+                                        {/* <a href="#" className="text-neutral-950 dark:text-neutral-dark-950 underline text-sm">Need
+                                            help?</a> */}
                                     </div>
                                     <button type="submit" className="w-full btn bg-primary-light-950 dark:bg-primary-dark-950 rounded-full px-8 py-4 text-xl text-neutral-950 dark:text-neutral-dark-950 font-bold text-center">
                                         Sign Up
                                     </button>
                                     
                                     <p className="text-center text-lg font-medium text-neutral-700 dark:text-neutral-dark-700 pt-8 pb-12">
-                                        Already have an account? <a href="page-login.html" className="text-neutral-950 dark:text-neutral-dark-950 underline">Sign In</a></p>
+                                        Already have an account? <a href="page-login" className="text-neutral-950 dark:text-neutral-dark-950 underline">Sign In</a></p>
                                 </form>
                             </div> {/*Left col*/}
                             <div className="lg:pl-12 mt-20 hidden lg:block">
