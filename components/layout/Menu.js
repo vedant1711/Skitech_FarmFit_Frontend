@@ -14,11 +14,6 @@ export default function Menu() {
             <ul className="xl:flex hidden">
                 <li className="relative group">
                     <Link className="menu-item" href="/">Home</Link>
-                    <ul className="z-100 absolute px-6 py-4 rounded-md left-4 bg-neutral-0 dark:bg-neutral-dark-0 min-w-48 shadow-sm mt-8 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-4 transition-all duration-500">
-                        <li><Link href="/" className="menu-sub-item">Home page 01</Link></li>
-                        <li><Link href="/index-2" className="menu-sub-item">Home page 02</Link></li>
-                        <li><Link href="/index-3" className="menu-sub-item">Home page 03</Link></li>
-                    </ul>
                 </li>
                 <li className="relative group">
                     <Link className="menu-item" href="/#">Blog</Link>
@@ -34,13 +29,6 @@ export default function Menu() {
                 <li className="relative group">
                     <Link className="menu-item" href="/#">Features</Link>
                     <ul className="z-100 absolute px-6 py-4 rounded-md left-4 bg-neutral-0 dark:bg-neutral-dark-0 min-w-48 shadow-sm mt-8 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-4 transition-all duration-500">
-                        {/* <li><Link href="/page-about" className="menu-sub-item">About me</Link></li>
-                        <li><Link href="/page-author" className="menu-sub-item">Author</Link></li>
-                        <li><Link href="/page-search" className="menu-sub-item">Search Results</Link></li>
-                        <li><Link href="/page-contact" className="menu-sub-item">Contact</Link></li>
-                        <li><Link href="/page-login" className="menu-sub-item">Login</Link></li>
-                        <li><Link href="/page-register" className="menu-sub-item">Register</Link></li>
-                        <li><Link href="/page-forgot-password" className="menu-sub-item">Forgot Password</Link></li> */}
                         <li><Link href="diseaseDetection" className="menu-sub-item">Disease Detection</Link></li>
                         <li><Link href="cropInsurance" className="menu-sub-item">Crop Insurance</Link></li>
                         <li><Link href="commodityPrices" className="menu-sub-item">Commodity Market Price</Link></li>
