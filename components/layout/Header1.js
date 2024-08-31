@@ -20,7 +20,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                         <div className="language-switcher py-4 relative z-10">
                             <Language />
                         </div>
-                        <ThemeSwitch />
+                        {/* <ThemeSwitch /> */}
                         <Search />
                         <div className="py-4 hover-up xl:flex hidden relative z-20">
                             <Link className="btn-primary" href="/page-login">
