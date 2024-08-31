@@ -1,5 +1,4 @@
 import Link from "next/link"
-import ThemeSwitch2 from "../elements/ThemeSwitch2"
 import Language from "./Language"
 import Menu2 from "./Menu2"
 import MobileMenu from "./MobileMenu"
