@@ -10,7 +10,7 @@ export default function Footer1() {
                         <div className="mb-8 lg:mb-4 lg:max-w-96">
                             <h1 className="mb-8">
                                 <Link href="/">
-                                    <img src="/assets/imgs/template/logo.svg" alt="logo" className="flex-shrink-0 relative dark:hidden" />
+                                    <img src="/assets/imgs/template/image.png" alt="logo" className="flex-shrink-0 relative dark:hidden" />
                                     <img src="/assets/imgs/template/logo-white.svg" alt="logo" className="flex-shrink-0 relative hidden dark:inline-block" />
                                 </Link>
                             </h1>
@@ -95,10 +95,10 @@ export default function Footer1() {
                             </div>
                         </div>
                     </div>
-                    <div className="pt-8">
+                    {/* <div className="pt-8">
                         <p className="text-sm text-neutral-700 dark:text-neutral-dark-700">© IDEKO 2024. Designed by <Link href="/https://alithemes.com" className="text-neutral-950 dark:text-neutral-dark-950">Alithemes</Link>
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </footer>
 
